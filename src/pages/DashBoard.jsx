@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Heading from "../componentes/Heading";
 import { getAllFavorites, removeFavorite } from "../utils";
 import Card from "../componentes/Card";
-import { useLocation } from "react-router-dom";
+
 
 const DashBoard = () => {
 
